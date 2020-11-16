@@ -1,18 +1,19 @@
 # Intro to HTML
 
----
-
-## HTML is the skeleton of the internet
-
-HTML is the language used to give structure to content on the web. It stands for "Hyper Text Markup Language". _"Hyper Text"_ is just a sci-fi way of saying "text that does special stuff". _"Markup"_ means that text or content may be bold, italicized, a list of bullet points, a table with content, etc.
-
 ![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/3_pillars.jpeg)
 
-HTML is one of the three pillars of the web, along with CSS and JavaScript. it's the first type of file your browser encounters when it load up a web page, and it is responsible for connecting your CSS styles and JS functionality to the content contained in your website or app.
+## The skeleton of the internet
+
+HTML is the language used to give structure to content on the web. It stands for "Hyper Text Markup Language". 
+* `hyper text` is just a sci-fi way of saying "text that does special stuff".
+* `markup` means that the text can be formatted. Bold, italics, a list of bullet points, a table with content, etc.
+* HTML is a `language` because it allows us to communicate human ideas to a machine in a way that it can understand. Now _that_ is some sci-fi ish.
+
+HTML is one of the three pillars of the web, along with `CSS` and `JavaScript`. it's the first type of file your browser encounters when it load up a web page, and it is responsible for connecting your CSS styles and JS functionality to the content contained in your website or app.
 
 ---
 
-## A quick look at the web
+<!-- ## A quick look at the web
 
 ![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/internet_kid.jpg)
 
@@ -20,9 +21,11 @@ Do this live -
 
 _start our example with a single html file on the desktop of your computer. Then open that text file with a browser, and show how the text is displayed on the page. Then add in some HTML tags, you see that the tags that were used are interpreted by the browser and displayed with formatting, or markup. Next talk about if we wanted to add color or design, and connect a stylesheet (all using the finder gui). Lastly talk about interaction with JS and link that. Then we have a very simple local site, but how can other people access it? LAN cable to someone elses computer?  By deploying our site, we are essentially putting those files onto another computer/server that can then be accessed anywhere online via the internet. We will be learning how to put those pieces together, with a focus on the HTML, CSS, and JS._
 
----
+--- -->
 
 ## Anatomy of an HTML tag
+
+![](https://github.com/mikelbrierly/dev-delta-planning/blob/master/lesson-plans/images/ex_el7.PNG?raw=true)
 
 ### Content
 
@@ -36,7 +39,7 @@ If we want to be able to alter that content at all, it will have to be enclosed 
 > <p>Big Gulps huh? Alright! Welp, see ya later!</p>
 > ```
 
-When the browser inteprets this HTML to be displayed, it will only output the content, like so:
+When the browser interprets this HTML to be displayed, it will only output the content, like so:
 
 > <p>Big Gulps huh? Alright! Welp, see ya later!</p>
 
@@ -87,6 +90,7 @@ _Attributes help to communicate special information to the browser about your do
 There are an unlimited number of ways you could format your content and text on the web, and HTML allows for as much customization as you can imagine, but thankfully we are given some building blocks for the common ones right out of the box with HTML. Let's take a look at a few of those. 
 
 First up, let's look at the smallest possible HTML document:
+> _This is not something you need to memorize, feel free to look up this syntax if you need, but it's good to understand why everything needs to be there_
 ```html
 <!DOCTYPE html>
 <html lang="en-US">
@@ -112,7 +116,8 @@ The title element defines what will be displayed in the browser tab when on your
 ```
 
 #### Heading elements
-There are 6 levels of heading elements, from `<h1>` to `<h6>`. They are rendered at different sizes, but more importantly they convey information about the page structure to search engines and users.
+There are 6 levels of heading elements, from `<h1>` to `<h6>`. They are rendered at different sizes, but more importantly they convey information about the page structure to search engines and users. 
+> _there should only be a single `h1` in each html document. Any following headers should be in order from `h2` down to `h6`._
 ```html
 <h1>Wizard Stuff</h1>
 ```
@@ -164,7 +169,7 @@ Now our webpage will look like this:
 ---
 
 ## Adding media
-<img src="../images/nickelback.jpg" width="550px">
+<img src="https://github.com/mikelbrierly/dev-delta-planning/blob/master/lesson-plans/images/nickelback.jpg?raw=true" width="550px">
 
 The web wouldn't be the web if it weren't for memes, gifs, images, videos and the like. Adding _media_ to our pages is almost always something we'll want to do.
 
