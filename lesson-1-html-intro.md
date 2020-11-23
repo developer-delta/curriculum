@@ -1,31 +1,31 @@
 # Intro to HTML
 
-![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/3_pillars.jpeg)
+![An aerial view of a river delta](https://images.unsplash.com/photo-1524009901480-a6fa1c0c8ab5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 
-## The skeleton of the internet
+## HTML is the foundation of the web
 
-HTML is the language used to give structure to content on the web. It stands for "Hyper Text Markup Language". 
-* `hyper text` is just a sci-fi way of saying "text that does special stuff".
-* `markup` means that the text can be formatted. Bold, italics, a list of bullet points, a table with content, etc.
-* HTML is a `language` because it allows us to communicate human ideas to a machine in a way that it can understand. Now _that_ is some sci-fi ish.
+HTML is the language used to give structure to content on the web. It stands for "Hyper Text Markup Language". _"Hyper Text"_ is just a sci-fi way of saying "text that does special stuff". _"Markup"_ means that text or content may be bold, italicized, a list of bullet points, a table with content, etc.
 
-HTML is one of the three pillars of the web, along with `CSS` and `JavaScript`. it's the first type of file your browser encounters when it load up a web page, and it is responsible for connecting your CSS styles and JS functionality to the content contained in your website or app.
+![Concrete pillars under a large structure](https://images.unsplash.com/photo-1519176510496-cd5b5b74c808?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80)
+
+HTML is one of the three pillars of the web, along with CSS and JavaScript. it's the first type of file your browser encounters when it load up a web page, and it is responsible for connecting your CSS styles and JS functionality to the content contained in your website or app.
+
+> ![Screenshot of a garish old myspace page with nightmare before christmas stuff all over it. (a heavily customized personal site)](https://news.codecademy.com/content/images/2020/02/nightmare-before-christmas-myspace-layout.jpg)
+If this looks familiar, you have already written good old HTML.
 
 ---
 
-<!-- ## A quick look at the web
+## A quick look at the web
 
-![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/internet_kid.jpg)
+![The cover of a software box from the 1990's titled "Internet", and has a young kid surfing a keyboard far above the earth. It's outrageous.](https://i1.wp.com/youarenotsosmart.com/wp-content/uploads/2015/11/1509851_10151965594172739_1451801489_n.jpg?fit=770%2C730&ssl=1)
 
 Do this live -
 
 _start our example with a single html file on the desktop of your computer. Then open that text file with a browser, and show how the text is displayed on the page. Then add in some HTML tags, you see that the tags that were used are interpreted by the browser and displayed with formatting, or markup. Next talk about if we wanted to add color or design, and connect a stylesheet (all using the finder gui). Lastly talk about interaction with JS and link that. Then we have a very simple local site, but how can other people access it? LAN cable to someone elses computer?  By deploying our site, we are essentially putting those files onto another computer/server that can then be accessed anywhere online via the internet. We will be learning how to put those pieces together, with a focus on the HTML, CSS, and JS._
 
---- -->
+---
 
 ## Anatomy of an HTML tag
-
-![](https://github.com/mikelbrierly/dev-delta-planning/blob/master/lesson-plans/images/ex_el7.PNG?raw=true)
 
 ### Content
 
@@ -39,7 +39,7 @@ If we want to be able to alter that content at all, it will have to be enclosed 
 > <p>Big Gulps huh? Alright! Welp, see ya later!</p>
 > ```
 
-When the browser interprets this HTML to be displayed, it will only output the content, like so:
+When the browser inteprets this HTML to be displayed, it will only output the content, like so:
 
 > <p>Big Gulps huh? Alright! Welp, see ya later!</p>
 
@@ -85,12 +85,17 @@ _Attributes help to communicate special information to the browser about your do
 
 ---
 
+##### _Diagram_
+
+![Screenshot with labels for the anatomy of an html tag. Opening paragraph tag, attribute, a nested element with content, the tags own content, and the closing paragraph tag](https://i.imgur.com/Ay2GfUK.png)
+
+---
+
 ## Commonly used HTML elements
 
 There are an unlimited number of ways you could format your content and text on the web, and HTML allows for as much customization as you can imagine, but thankfully we are given some building blocks for the common ones right out of the box with HTML. Let's take a look at a few of those. 
 
 First up, let's look at the smallest possible HTML document:
-> _This is not something you need to memorize, feel free to look up this syntax if you need, but it's good to understand why everything needs to be there_
 ```html
 <!DOCTYPE html>
 <html lang="en-US">
@@ -104,7 +109,7 @@ First up, let's look at the smallest possible HTML document:
 
 </html>
 ```
-![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/html-file/ex-1.png)
+![Annotated screenshot of the above html, with explanations for the different tags and attributes.](https://i.imgur.com/aZe8fBj.png)
 That will not actually render anything to our page, but we have set up the structure of our HTML document so that we can write _valid html_ in it.
 
 ### Let's add the following elements to our example page:
@@ -116,8 +121,7 @@ The title element defines what will be displayed in the browser tab when on your
 ```
 
 #### Heading elements
-There are 6 levels of heading elements, from `<h1>` to `<h6>`. They are rendered at different sizes, but more importantly they convey information about the page structure to search engines and users. 
-> _there should only be a single `h1` in each html document. Any following headers should be in order from `h2` down to `h6`._
+There are 6 levels of heading elements, from `<h1>` to `<h6>`. They are rendered at different sizes, but more importantly they convey information about the page structure to search engines and users.
 ```html
 <h1>Wizard Stuff</h1>
 ```
@@ -164,18 +168,18 @@ The lists items will be the `li` tag.
 ```
 
 Now our webpage will look like this:
-![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/hogwarts.png)
+![Screenshot of our simple website showing Harry, hermione, and ron in bullet points, followed by a purple hyperlink that says "Take me to Hogwarts!!"](https://i.imgur.com/CP1zvZW.png)
 
 ---
 
 ## Adding media
-<img src="https://github.com/mikelbrierly/dev-delta-planning/blob/master/lesson-plans/images/nickelback.jpg?raw=true" width="550px">
+<img src="https://i.imgur.com/70BpceM.jpg" width="550px" alt="Man holding up a picture. (Screenshot from a Nickelback music video)">
 
 The web wouldn't be the web if it weren't for memes, gifs, images, videos and the like. Adding _media_ to our pages is almost always something we'll want to do.
 
 Here's what the `html` looks like for the lovely photograph(s) of Nickelback frontman Chad Kroeger above:
 > ```html
-> <img src="https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/nickelback.jpg" width="550px">
+> <img src="../images/nickelback.jpg" width="550px">
 > ```
 
 There are a couple special things you might have noticed about this tag in particular: 
@@ -205,7 +209,7 @@ If you were using a screen reader to view this:
 <img src="../images/nickelback.jpg" width="550px">
 ```
 You would hear something like this read to you:
-> ![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/inaccessible.png)
+> ![Screenshot of Mac's VoiceOver reading an unlabeled image.](https://i.imgur.com/dRngfiw.png)
 > The key piece there is `Unlabeled image`. 
 
 What a bummer. If you are blind, you are missing a huge piece of what this site has to offer, and it may even make your site unusable. To solve this, we can use the `alt` attribute.
@@ -213,14 +217,14 @@ What a bummer. If you are blind, you are missing a huge piece of what this site 
 ### Alt text
 
 Alternative text is an `attribute` you can add to your image tags that gives descriptions and context for your images! If you have ever seen this on the web, you have seen alt text:
-> ![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/alt-example.png)
+> ![Screenshot of a broken image tag with it's alt text displayed on the screen](https://i.imgur.com/45uKktp.png)
 
 That information isn't just to provide sighted users a description of broken images, it's primary purpose is for screen readers. Let's add some good alt text to our image:
 ```html
 <img src="../images/nickelback.jpg" width="550px" alt="A bleached blonde man saying 'look at this photograph' while holding up said photo for you to look at.">
 ```
 Which will be read as:
-![](https://github.com/mikelbrierly/dev-delta-planning/raw/master/lesson-plans/images/with-alt.png)
+![Screenshot of VoiceOver reading the newly added alt text "A bleached blonde man saying 'look at this photograph' while holding up said photo for you to look at."](https://i.imgur.com/4dGJj4K.png)
 
 Now our screen reader users can get the context they need to understand the content of our site easy peasy. All we have to do is give accurate descriptions of what is in our photos. 
 
