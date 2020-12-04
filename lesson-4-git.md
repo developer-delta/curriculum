@@ -1,6 +1,6 @@
 # Gittin' into it
 
-![hp skinny little git gif]()
+![Four images of Rick looking at his phone](https://i.redd.it/mretxur3r6031.jpg)
 
 ## What _is_ Git? 
 
@@ -18,9 +18,12 @@ _So then what is GitHub? The same thing?_
 
 Not quite... Git is the _system_, and GitHub is a website that _uses_ git to help us host our code online. It also provides a pretty UI for us to use to interact with Git.
 
-![drawing of git alone, text based implication in terminal maybe. Then drawing of GitHub in browser window pretty colors and stuff, with Git INSIDE of it. Containing it.]()
+<img src="https://i.imgur.com/WrIZNOU.png" width="45%" alt="Illustration of Git on the command line"/>
+<img src="https://i.imgur.com/myXSKAT.png" width="50%" alt="Illustration of GitHub overlaid on top of the command line illustration"/>
 
-Git is a __system__, like the rules of a word tile game is a __system__. 
+---
+
+_Again, Git is a system, like the rules of a word tile game is a system._
 
 <img src="https://i.etsystatic.com/6567859/r/il/fd4d22/2524094814/il_794xN.2524094814_2s47.jpg" width="45%" alt="An old scrabble board with tiles"/>
 <img src="https://www.wired.com/images_blogs/gamelife/2011/02/wordswith.jpg" width="50%" alt="Screenshot of the game Words with Friends on a phone"/> 
@@ -35,7 +38,7 @@ GitHub is a __wrapper__ built around the __system__ of Git. Similar to how Words
 
 Alright, let's dive into it!
 
-![some rick and morty spaceship gif (or underwater)]()
+![rick and morty returned from an underwater adventure](https://mondrian.mashable.com/uploads%252Fstory%252Fthumbnail%252F56768%252Faffb5be6-2255-47d8-94af-5a682cabc59a.png%252F950x534.png?signature=GgXW8YgT1m8IWKG8ePj8FLahfwA=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com)
 
 ##### Here are some beginner git commands you'll need: 
 > _(everything in `<brackets>` are just placeholder examples)_
@@ -82,7 +85,7 @@ Additional basic commands you'll need to use:
 
 ## Homework
 
-![Morty at school image or gif]()
+![Morty doing homework with his dad. His face falls off revealing he is a robot. All while the real rick and morty walk in and quickly walk out in the background.](https://media2.giphy.com/media/6o10M16kJLNuw/giphy.gif)
 
 Go and pull up [this repository](https://github.com/developer-delta/dev-delta-jokes) in your browser for instructions to complete the homework.
 
