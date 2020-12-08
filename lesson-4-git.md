@@ -18,15 +18,13 @@ _So then what is GitHub? The same thing?_
 
 Not quite... Git is the _system_, and GitHub is a website that _uses_ git to help us host our code online. It also provides a pretty UI for us to use to interact with Git.
 
-<img src="https://i.imgur.com/WrIZNOU.png" width="45%" alt="Illustration of Git on the command line"/>
-<img src="https://i.imgur.com/myXSKAT.png" width="50%" alt="Illustration of GitHub overlaid on top of the command line illustration"/>
+![Illustration of Git on the command line and an illustration of GitHub overlaid on top of the command line illustration](https://i.imgur.com/rma6fD1.png)
 
 ---
 
 _Again, Git is a system, like the rules of a word tile game is a system._
 
-<img src="https://i.etsystatic.com/6567859/r/il/fd4d22/2524094814/il_794xN.2524094814_2s47.jpg" width="45%" alt="An old scrabble board with tiles"/>
-<img src="https://www.wired.com/images_blogs/gamelife/2011/02/wordswith.jpg" width="50%" alt="Screenshot of the game Words with Friends on a phone"/> 
+![An old scrabble board with tiles next to a screenshot of the game Words with Friends on a phone](https://i.imgur.com/WJmnLvg.png)
 
 GitHub is a __wrapper__ built around the __system__ of Git. Similar to how Words with Friends is a __wrapper__ built around the __system__ of word tile games.
 
