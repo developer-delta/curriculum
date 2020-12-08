@@ -20,6 +20,16 @@
   * Changing content on your webpage with interaction
   * Animations
 
+# Am I cut out to be a programmer?
+* Not good at math
+* Not tech-ey
+* Artistic instead of right-brained
+* Cliche's
+* Pseudo-code example you can do it just have to learn syntax
+* The beauty of possibility
+* Art on the web
+* Anything you want
+
 # Values in JS
 * How data is represented
 * Numbers
@@ -44,7 +54,8 @@
 * return value
 * logic with simple addition/subtraction
 
-# MATH???
+# Math
+* I thought you said no math
 
 # Operators
 * Add
