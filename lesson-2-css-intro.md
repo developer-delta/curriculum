@@ -57,7 +57,9 @@ Let's take a quick look at _how_ we can leverage CSS to modify our HTML. We'll n
   </head>
   ```
 * Next we need to make sure that we have a stylesheet created where we said it was. Our file structure should look like this:
+
   ![Screenshot of index.html alongside styles.css in the file browser tab of stackblitz](https://i.imgur.com/qkraNJi.png)
+
 * Inside of `my-stylesheet.css` let's add some code to see if it's working:
   ```css
   body {
@@ -80,11 +82,15 @@ p {
 }
 ```
 That will change this:
+
 !["I'm a paragraph in a div!" written in plain text](https://i.imgur.com/Flxaot5.png)
+
 To this:
+
 !["I'm a paragraph in a div!" written in huge purple font](https://i.imgur.com/QYwUmM4.png)
 
 let's take a closer look at that CSS `rule` we just created:
+
 ![Screenshot of CSS rule with a "p" selector, declaration of "font-size: 100px;" second declaration of "color: purple:", and the whole this is labelled as a "CSS Rule"](https://i.imgur.com/mGaHU2I.png)
 
 I don't want you to get too overwhelmed with all of the possibilities here. Let's just focus on this part of CSS `rules`:
@@ -122,6 +128,7 @@ div {
 }
 ```
 Renders to:
+
 ![Five blue bordered boxes spanning the width of the browser window.](https://i.imgur.com/pch3ZMy.png)
 
 Maybe that's exactly what we want, and if so, awesome! But what if you wanted all grey boxes and only the third one was blue? We can do that by creating a more _specific_ rule.
@@ -152,6 +159,7 @@ div {
 }
 ```
 Renders to:
+
 ![five boxes. The third bordered in blue, the rest bordered in grey](https://i.imgur.com/lse0cRC.png)
 
 Ok! Let's unpack what we just did there. 
@@ -211,6 +219,7 @@ Any element with an `id` attribute can be targeted with `#` like so:
 }
 ```
 Renders to:
+
 ![small red square](https://i.imgur.com/JkuJNnE.png)
 
 ---
@@ -256,7 +265,8 @@ I wanted to add a quick note here about accessibility. It's easy to think that w
 Here's a couple examples:
 
 > text that doesn't have enough contrast with its background
-![white text on a lightgrey background with very little contrast](https://i.imgur.com/msj3QjV.png)
+> 
+> ![white text on a lightgrey background with very little contrast](https://i.imgur.com/msj3QjV.png)
 
 > Tooltips that only show text when hovered by a user. This could potentially never be accessed by someone using a screen reader, or maybe it pops up out of context and adds confusion to the flow of your page
 
