@@ -80,9 +80,9 @@ p {
 }
 ```
 That will change this:
-> <p style="font-family: initial;">I'm a paragraph in a div!</p>
+<p style="font-family: initial;">I'm a paragraph in a div!</p>
 To this:
-> <p style="font-size: 100px; color: purple; font-family: initial;">I'm a paragraph in a div!</p>
+<p style="font-size: 100px; color: purple; font-family: initial;">I'm a paragraph in a div!</p>
 
 let's take a closer look at that CSS `rule` we just created:
 ![Screenshot of CSS rule with a "p" selector, declaration of "font-size: 100px;" second declaration of "color: purple:", and the whole this is labelled as a "CSS Rule"](https://i.imgur.com/mGaHU2I.png)
