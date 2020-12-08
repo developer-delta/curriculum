@@ -80,9 +80,9 @@ p {
 }
 ```
 That will change this:
-<p style="font-family: initial;">I'm a paragraph in a div!</p>
+!["I'm a paragraph in a div!" written in plain text](https://i.imgur.com/Flxaot5.png)
 To this:
-<p style="font-size: 100px; color: purple; font-family: initial;">I'm a paragraph in a div!</p>
+!["I'm a paragraph in a div!" written in huge purple font](https://i.imgur.com/QYwUmM4.png)
 
 let's take a closer look at that CSS `rule` we just created:
 ![Screenshot of CSS rule with a "p" selector, declaration of "font-size: 100px;" second declaration of "color: purple:", and the whole this is labelled as a "CSS Rule"](https://i.imgur.com/mGaHU2I.png)
@@ -122,11 +122,7 @@ div {
 }
 ```
 Renders to:
-<div style="border: 3px solid blue; padding: 5px; margin: 5px;"></div>
-<div style="border: 3px solid blue; padding: 5px; margin: 5px;"></div>
-<div style="border: 3px solid blue; padding: 5px; margin: 5px;"></div>
-<div style="border: 3px solid blue; padding: 5px; margin: 5px;"></div>
-<div style="border: 3px solid blue; padding: 5px; margin: 5px;"></div>
+![Five blue bordered boxes spanning the width of the browser window.](https://i.imgur.com/pch3ZMy.png)
 
 Maybe that's exactly what we want, and if so, awesome! But what if you wanted all grey boxes and only the third one was blue? We can do that by creating a more _specific_ rule.
 
@@ -156,11 +152,7 @@ div {
 }
 ```
 Renders to:
-<div style="border: 3px solid grey; padding: 5px; margin: 5px;"></div>
-<div style="border: 3px solid grey; padding: 5px; margin: 5px;"></div>
-<div style="border: 3px solid blue; padding: 5px; margin: 5px;"></div>
-<div style="border: 3px solid grey; padding: 5px; margin: 5px;"></div>
-<div style="border: 3px solid grey; padding: 5px; margin: 5px;"></div>
+![five boxes. The third bordered in blue, the rest bordered in grey](https://i.imgur.com/lse0cRC.png)
 
 Ok! Let's unpack what we just did there. 
 > In our HTML, we have 5 `<div>` elements, and the third one has a `class` attribute of `im-blue-daba-dee-daba-dai`.
@@ -197,9 +189,7 @@ span {
 ```
 Will render to:
 
-<span class="clone" style="border-bottom: 2px solid orange; background-color: lightgrey; color: blue;">Captain Rex</span>
-<span class="jedi" style="border-bottom: 2px solid orange; font-weight: bold; background-color: lightblue;">Ahsoka Tano</span>
-<span class="clone" style="border-bottom: 2px solid orange; background-color: lightgrey; color: blue;">Commander Cody</span>
+!["Captain Rex" on the first line in blue text, grey background, and orange underline. "Ahsoka Tano" on the second line in black text, blue background, and orange underline. "Commander Cody" on the third line in blue text, grey background, and orange underline.](https://i.imgur.com/gjXDpSS.png)
 
 In that example, we... 
 * Styled all three `span`s with a bottom border of orange, and a background color of lightgrey. 
@@ -221,8 +211,10 @@ Any element with an `id` attribute can be targeted with `#` like so:
 }
 ```
 Renders to:
-<div style="width: 20px; height: 20px; background: red;"></div>
+![small red square](https://i.imgur.com/JkuJNnE.png)
+
 ---
+
 ⚠️ When adding an `id` attribute to your HTML, know that they are intended to be unique. You should never have two `id` attributes in your document with the same name. If you want duplicates, you should use a `class` attribute. ⚠️
 
 ---
@@ -264,7 +256,7 @@ I wanted to add a quick note here about accessibility. It's easy to think that w
 Here's a couple examples:
 
 > text that doesn't have enough contrast with its background
-<span style="background-color: lightgrey; color: white;">I might be tough to see for people with colorblindness or cataracts.</span>
+![white text on a lightgrey background with very little contrast](https://i.imgur.com/msj3QjV.png)
 
 > Tooltips that only show text when hovered by a user. This could potentially never be accessed by someone using a screen reader, or maybe it pops up out of context and adds confusion to the flow of your page
 
