@@ -1,8 +1,4 @@
-# Introduction to JavaScript
-
-![You've taken your first step into a larger world](https://64.media.tumblr.com/0983e12a79750034d4481363c27fd602/tumblr_o4i92cpye51twcj5xo2_500.gif)
-
-# What is JavaScript
+# What is JavaScript?
 
 ![Slide of death star frame, death star lights on, kyber ray](https://i.imgur.com/ZPGqhnk.png)
 
@@ -12,8 +8,6 @@ JavaScript is what you'll hear referred to as a _programming language_. HTML and
 
 _JavaScript is a completely different programming language from _Java_. This is good to keep in mind as you're googling JS issues while developing._ 
 
-![slide showing js in a dot alongside html and css. and how they are connected](https://blog.codeanalogies.com/wp-content/uploads/h5p/content/1/images/imageAfter-5aefa3f45f2e9.png)
-
 _JS connects to our webpage similar to how a CSS file would, by connecting to the __HTML__._
 
 ---
@@ -22,12 +16,9 @@ _JS connects to our webpage similar to how a CSS file would, by connecting to th
 
 Every time you fill out a form, search for something, login, load an account, or really do anything other than just look at _static_ content on the web, you are leveraging the power of JavaScript. A website without JavaScript would never change. It's contents would be set in stone, simply displaying information with nothing the user could do to interact with it.
 
-![Buzz Lightyears arm with the control panel sticker, next to it a Pip-Boy from fallout with lots of knobs and live data displayed.](https://theclearancebin.weebly.com/uploads/1/2/3/0/1230872/636654.jpg)
-![Buzz Lightyears arm with the control panel sticker, next to it a Pip-Boy from fallout with lots of knobs and live data displayed.](https://cwpwp2.betterthanpaper.com/wp-content/uploads/2015/07/hRDlpaIASS2j.png)
+![Buzz Lightyears arm with the control panel sticker, next to it a Pip-Boy from fallout with lots of knobs and live data displayed.](https://i.imgur.com/ea23Ilk.png)
 
 When we talk about _static_ vs _dynamic_ websites, you can think of them like cars. Imagine having a badass Delorian with leather seats and intricate details, but no engine. You can sit in it and enjoy it for a while, but that's gonna get old quick. Now let's say that Delorian has an engine _and_ a flux capacitor. RAD. __That's__ the kind of difference JS can bring by allowing us to build dynamic sites.
-
-![Doc and Marty in the Delorian moving wicked fast](https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.syracuse.com/home/syr-media/width2048/img/us-news/photo/2017/05/31/back-to-the-future-delorean-bc6f28daa5154b8e.jpg)
 
 ---
 
@@ -53,7 +44,7 @@ The web is a blank canvas. Any idea you've ever had for a game, an art project, 
 
 # Getting Started
 
-![Parody of "Hello World" code, or unsplash code](https://lh3.googleusercontent.com/proxy/idojNMfjRXzYKYI6doetAkqwPA-WRbC79FzyBQklo7EDjweFYOmFytWANYJbrNOGcDkNzup9dSUO_hLyT4ps-BErh_xG0olHGFkvk91NOkUXQcIletweH042XUPm0CqaNZ10CCop8bD3TkvbKWcyBwfO5rupO6UJu8I)
+![Parody of "Hello World" code, or unsplash code](https://images.unsplash.com/photo-1516331590554-978b8de25f18?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80)
 
 #### _Head over to [this repo to get set up](https://github.com/developer-delta/javascript-first-steps) with a template for writing our JavaScript_
 
@@ -297,8 +288,6 @@ A _constant_ is a variable that once it's value has been set, it can never be ch
 ```javascript
 const MAX_VOLUME = 93;
 ```
-
-![Brick from anchorman saying WHY ARE WE YELLING??](https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9408544b-2d88-4ba0-b058-2a133bd3d6b6_888x499.jpeg)
 
 > All caps for `const` declarations isn't something you _have_ to do, but it is encouraged so that later on in the program if people use the `MAX_VOLUME` variable, they'll know it's a `const` just by the fact that it's all caps. When developers are in agreement about doing something like this to make the codebase better, it is called a __best practice__.
 
@@ -558,11 +547,10 @@ We have just covered a _ton_ of JavaScript!! But you may have noticed that we di
 
 ### Homework
 
-![good job whew brain full](https://thumbs.gfycat.com/ScentedYellowGuineafowl-size_restricted.gif)
+![You've taken your first step into a larger world](https://64.media.tumblr.com/0983e12a79750034d4481363c27fd602/tumblr_o4i92cpye51twcj5xo2_500.gif)
 
-Your `app.js` file should be packed full of new JavaScript now!! But let's take a couple more steps to solidify some of this knowledge.
+Repetition is your best friend while learning JS! Let's go over these concepts and practice writing more of the JavaScript we just covered.
 
-* Go through all the code we have written so far, and add `comments` to it explaining what each line does. Try to use as much terminology we went over in this lesson as possible.
-* Create a new function yourself that does something different than the existing one. Do some googling to manipulate information somehow, and document it using code comments.
-* Once you have an awesome working JS file, go ahead and `branch` and submit a pull request to the [javascript-first-steps](https://github.com/developer-delta/javascript-first-steps) repo so we can see each others awesome code!
-* Once your PR is in, try and check back later in the week to add comments to your classmates PR's. There's a lot we'll be learning from each other as we progress!
+* Open up the `example.js` file in the `javascript-first-steps` repo.
+* Follow the instructions in that file from top to bottom. Make sure to reference the lesson we just went over to help you out when you forget syntax.
+* Once you've completed the prompts from that file, go ahead and `branch` and submit a pull request to the [javascript-first-steps](https://github.com/developer-delta/javascript-first-steps) repo so we can see each others work!
