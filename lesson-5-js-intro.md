@@ -215,7 +215,7 @@ Sometimes we'll want to _check_ whether or not something exists or is equal to a
 2 === 1 // returns false
 ```
 
-When we use JavaScript to check is something will return a true/false value as a `boolean`, that is literally called checking for `truthy` and `falsy` values. Shit you not.
+When we use JavaScript to check if something will return a true/false value as a `boolean`, that is literally called checking for `truthy` and `falsy` values.
 
 ---
 
@@ -244,8 +244,6 @@ let hermione = "Emma Watson";
 `let` is a __keyword__ in JS that means "Hey I'm about to create a variable, listen up". It is a `declaration`.
 
 It allows us to `declare` our variable (hermione) and _assign_ it (=) a `value` ("Emma Watson").
-
-![Inigo Montoya from the Princess Bride saying "Why you keep using that word? I don't think it means what you think it means"](https://i.imgur.com/3cpAS6Lh.jpg)
 
 It's very important to note here that the equal sign `=` in JS does not mean "is the same as". The single equal sign is used for `assignment`. To make the value of one thing the _same_ value as another. 
 
@@ -551,6 +549,4 @@ We have just covered a _ton_ of JavaScript!! But you may have noticed that we di
 
 Repetition is your best friend while learning JS! Let's go over these concepts and practice writing more of the JavaScript we just covered.
 
-* Open up the `example.js` file in the `javascript-first-steps` repo.
-* Follow the instructions in that file from top to bottom. Make sure to reference the lesson we just went over to help you out when you forget syntax.
-* Once you've completed the prompts from that file, go ahead and `branch` and submit a pull request to the [javascript-first-steps](https://github.com/developer-delta/javascript-first-steps) repo so we can see each others work!
+* [Head over to the `javascript-first-steps` repo for the homework](https://github.com/developer-delta/javascript-first-steps)!
