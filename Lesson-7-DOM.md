@@ -2,6 +2,14 @@
 > * Lecture and working session - Coffee Machine (50 mins)
 > * Homework - Card generator. Questions, convo, going over concepts (30+ mins)
 
+* We should do our lesson on the DOM, THEN -
+* Go through the flow of a git push, pull, PR together for a refresher,
+* Then Assign tasks to different people to actually BUILD the "horses mouth" Greeting Card generator TOGETHER in a real open-source world.
+* Maybe we all pair program on the BASE HTMl document during a class together.
+* focus on the DOM and Conditionals.
+* Whip out A11y shit as we go
+* 
+
 
 > _This project will also allow us to recap on semantic `HTML tags`, `CSS properties`, `CSS rules`, `variables`, `functions`, `git`, and GitHub._
 
@@ -151,15 +159,12 @@ HOMEWORK
   * This will be a follow along learning project. After class ask everyone to make changes to theirs and submit a Pull Request. Maybe have PR's in during class but encourage everyone to make changes after as well.
   * Code along together. Speaking what needs to be written, then writing it. Starting with pseudo code.
   * if front, card stays closed goes on front
-  * if inside, card opens goes inside
+  * if inside, card opens goes inside\
+  * Use query parameters to send it to people??
 
 ---
 
 NOTES
-
-20 MINS of lecture, 40 mins of working session, 30+ mins of conversation/recap
-
-* In lecture let's have a simple text input and an alert message popping up if the name is something or another. GOOGLE away
 
 * Editing and expanding on the SAME function (Coffee) is helpful I think. Making it grow and encompass more things is really helpful  
 

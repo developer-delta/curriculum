@@ -197,8 +197,6 @@ console.log(megaCoffeeMachine(fancyBeans)); // logs "here's a tasty cup of sumat
 
 **Booyah functionality!!**
 
-> Try and add a conditional to check if a user wants decaf or regular!
-
 We can use another feature of `conditionals` called `else if` if we want to have multiple options. What if somebody wants a dairy alternative creamer?
 
 ```javascript
@@ -229,7 +227,5 @@ console.log(megaCoffeeMachine(fancyBeans, "VEGAN"));
 ```
 
 Now we have multiple options for our users for cream as well. But we probably want our function to see the light of day! To get it out on the page where it can be seen, and used, and loved!
-
-![A dude just about to lose his coffee](https://static.boredpanda.com/blog/wp-content/uploads/2019/11/funny-bad-day-accidents-fb2-png__700.jpg)
 
 Next week we'll dive into the DOM that will allow us to do that!
