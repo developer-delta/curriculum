@@ -1,4 +1,4 @@
-# JavaScript conditionals
+# JavaScript Conditionals
 
 ![Choose your own adventure book. Maybe from black mirror](https://miro.medium.com/max/3066/1*o6N2_Yvw9nsWAmi8qK_4pQ.jpeg)
 
