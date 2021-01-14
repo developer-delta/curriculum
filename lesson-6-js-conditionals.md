@@ -8,14 +8,14 @@ As we have been learning Javascript, our code has been very "static" so far. Eve
 
 ## Variables
 
-Variables are containers for values we want to store. Let's say we have some nice Sumatra coffee beans that we want to put into a container to use later.
+Variables are containers for values we want to store. Let's say we have some nice Dutch Bros coffee beans that we want to put into a container to use later.
 
 ```javascript
 // variable declaration and assignment
-const fancyBeans = "sumatra";
+const beanVariety = "Dutch";
 ```
 
-that container is _only_ for sumatra beans. If we wanted one where we could change what type of beans go in, we'd use a `let`.
+that container is _only_ for Dutch beans. If we wanted a variable where we could change what type of beans go in, we'd use a `let`.
 
 ```javascript
 // variable declaration
@@ -35,9 +35,9 @@ anyBean = "Sumatra";
 
 Functions are the foundation of our JavaScript code. They are machines that we use to complete tasks, manipulate things, or handle repetition.
 
-Let's build a coffee machine for our new coffee beans. _And not just_ a Mr. Coffee, let's make one of those awesome waiting-room monoliths with all kinds of business.
+Let's build a coffee machine for our new coffee beans. And not _just_ a Mr. Coffee, let's make one of those awesome vending monoliths with all kinds of bells and whistles.
 
-  ![awesome waiting room machine](https://i.pinimg.com/736x/f8/82/cc/f882cccaa8d75a6854a3b3d40bdde9e2.jpg)
+![awesome waiting room machine](https://images.unsplash.com/photo-1572612361555-50ea11ec50b7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2100&q=80)
 
 ```javascript
 // declare function named "megaCoffeeMachine"
@@ -58,8 +58,8 @@ const megaCoffeeMachine = (beans) => {
 
 }
 
-// "fancyBeans" is an argument
-console.log(megaCoffeeMachine(fancyBeans));
+// "beanVariety" is an argument
+console.log(megaCoffeeMachine(beanVariety));
 ```
 
 <!-- ![img of pouring beans in top]() -->
@@ -73,7 +73,7 @@ const megaCoffeeMachine = (beans) => {
   return beans;
 }
 
-console.log(megaCoffeeMachine(fancyBeans)); // logs "sumatra"
+console.log(megaCoffeeMachine(beanVariety)); // logs "sumatra"
 ```
 
 <!-- ![drawing of beans coming out door]() -->
@@ -88,38 +88,40 @@ const megaCoffeeMachine = (beans) => {
   return yourDrink;
 }
 
-console.log(megaCoffeeMachine(fancyBeans)); // logs "here's a tasty cup of sumatra coffee. Enjoy!"
+console.log(megaCoffeeMachine(beanVariety)); // logs "here's a tasty cup of sumatra coffee. Enjoy!"
 ```
 
 <!-- ![fun pic of a black cup of coffee coming out of machine]() -->
 
-But what of those folks who like cream in their coffee? Let's add some functionality to accommodate them.
+But what of those folks who like sugar in their coffee? Let's add some functionality to accommodate them.
 
 ```javascript
 const megaCoffeeMachine = (beans) => {
-  const yourDrink = "Here's a tasty cup of " + beans + " coffee with cream!";
+  const yourDrink = "Here's a tasty cup of " + beans + " coffee with sugar!";
   return yourDrink;
 }
 
-console.log(megaCoffeeMachine(fancyBeans)); // logs "here's a tasty cup of sumatra coffee with cream!"
+console.log(megaCoffeeMachine(beanVariety)); // logs "here's a tasty cup of sumatra coffee with sugar!"
 ```
 
-So we have cream in our coffee now, but now we can't give out just black coffee. I _suppose_ we could build a whole 'nother coffee machine for black coffee, but that seems overkill, there's gotta be a better way.
+So we have sugar in our coffee now, but now we can't give out just black coffee. I _suppose_ we could build a whole 'nother coffee machine for black coffee, but that seems overkill, there's gotta be a better way.
 
 # Conditionals
 
-_In come `conditionals` to save the day for our coffee machine!_
+![three cups of coffee, one black, one with sugar, and one with lots of sugar](https://i.imgur.com/6yxh8Jb.png)
+
+_Let's add `conditionals` to save the day for our coffee machine!_
 
 `conditionals` allow your code to make decisions based on inputs. They use the statements `if` and `else` to make this happen. Let's take a look -
 
 ```javascript
 
-let dude = "Dingus";
+let chad = "Energy drink fan";
 
-if(dude === "Dingus") {
-  console.log("This guy is a total dingus.");
+if(chad === "Energy drink fan") {
+  console.log("Got a cool guy over here. Way too cool for coffee.");
 } else {
-  console.log("Oh man yeah he's not a dingus at all.");
+  console.log("Carmel macchiato it is!");
 }
 ```
 
@@ -131,7 +133,7 @@ if(false) {
 }
 ```
 
-And this will print "But I'll ALWAYS happen!" every time -
+And this will print `"But I'll ALWAYS happen!"` every time -
 
 ```javascript
 if(false) {
@@ -141,20 +143,20 @@ if(false) {
 }
 ```
 
-If else statements are one of the more "readable" pieces of JS that naturally just make sense and _do what they look like they're doing_.
+`if` and `else` statements are one of the more "readable" pieces of JS that naturally just make sense and _do what they look like they're doing_.
 
 **_But back to our coffee machine!!_**
 
-Let's use a `conditional` to solve our cream problem!
+Let's use a `conditional` to solve our sugar problem!
 
 ```javascript
-const megaCoffeeMachine = (beans, cream) => {
+const megaCoffeeMachine = (beans, sugar) => {
   
   let yourDrink;
 
-  if(cream) {
+  if(sugar) {
 
-    yourDrink = "Here's a tasty cup of " + beans + " coffee with cream!";
+    yourDrink = "Here's a tasty cup of " + beans + " coffee with sugar!";
 
   } else {
 
@@ -165,52 +167,52 @@ const megaCoffeeMachine = (beans, cream) => {
   return yourDrink;
 }
 
-console.log(megaCoffeeMachine(fancyBeans, true)); 
-console.log(megaCoffeeMachine(fancyBeans));
+console.log(megaCoffeeMachine(beanVariety, true)); 
+console.log(megaCoffeeMachine(beanVariety));
 ```
 
 Here's that same code with some added notes -
 
 ```javascript
-const megaCoffeeMachine = (beans, cream) => {
+const megaCoffeeMachine = (beans, sugar) => {
   
   // declare yourDrink (like an empty cup waiting for coffee)
   let yourDrink;
 
-  // use a conditional that checks if the cream parameter is true
-  if(cream) {
-    // if cream is true, then reassign the yourDrink variable to a sentence about cream
-    yourDrink = "Here's a tasty cup of " + beans + " coffee with cream!";
+  // use a conditional that checks if the sugar parameter is true
+  if(sugar) {
+    // if sugar is true, then reassign the yourDrink variable to a sentence about sugar
+    yourDrink = "Here's a tasty cup of " + beans + " coffee with sugar!";
 
-  // if cream is NOT true (or doesn't exist), then reassign yourDrink variable to a sentence without cream
+  // if sugar is NOT true (or doesn't exist), then reassign yourDrink variable to a sentence without sugar
   } else {
     yourDrink = "Here's a tasty cup of " + beans + " coffee, black as night!";
   }
   return yourDrink;
 }
 
-console.log(megaCoffeeMachine(fancyBeans, true)); // logs "here's a tasty cup of sumatra coffee with cream!"
-console.log(megaCoffeeMachine(fancyBeans)); // logs "here's a tasty cup of sumatra coffee, black as night!"
+console.log(megaCoffeeMachine(beanVariety, true)); // logs "here's a tasty cup of sumatra coffee with sugar!"
+console.log(megaCoffeeMachine(beanVariety)); // logs "here's a tasty cup of sumatra coffee, black as night!"
 ```
 
 <!-- ![Two cups of coffee!!]() -->
 
 **Booyah functionality!!**
 
-We can use another feature of `conditionals` called `else if` if we want to have multiple options. What if somebody wants a dairy alternative creamer?
+We can use another feature of `conditionals` called `else if` if we want to have multiple options. What if somebody wants a dairy alternative sugarer?
 
 ```javascript
-const megaCoffeeMachine = (beans, cream) => {
+const megaCoffeeMachine = (beans, sugar) => {
   
   let yourDrink;
 
-  if(cream) {
+  if(sugar) {
 
-    yourDrink = "Here's a tasty cup of " + beans + " coffee with cream!";
+    yourDrink = "Here's a tasty cup of " + beans + " coffee with sugar!";
 
-  } else if(cream === "VEGAN") {
+  } else if(sugar === "splenda") {
 
-    yourDrink = "We get it you're vegan... " + beans + " coffee, vegan AF!";
+    yourDrink = "Here's a tasty cup of " + beans + " coffee with Splenda, enjoy!";
 
   } else {
 
@@ -221,14 +223,23 @@ const megaCoffeeMachine = (beans, cream) => {
   return yourDrink;
 }
 
-console.log(megaCoffeeMachine(fancyBeans, true)); 
-console.log(megaCoffeeMachine(fancyBeans));
-console.log(megaCoffeeMachine(fancyBeans, "VEGAN"));
+console.log(megaCoffeeMachine(beanVariety, true)); 
+console.log(megaCoffeeMachine(beanVariety));
+console.log(megaCoffeeMachine(beanVariety, "splenda"));
 ```
 
-Now we have multiple options for our users for cream as well.
+> _Now we have multiple options for our users!_
 
+---
 
-But we probably want our function to be used on the web, so someone could place a coffee order on a website for example! The key piece there is the DOM. The DOM will allow us to take our _logic_ we've written here, and then take inputs and give outputs on a webpage. And we'll learn that next week!
+#### Coming up
 
-You're doing an awesome job, this is a lot of heavy stuff to take in, so give yourself a pat on the back for coming this far!
+But we probably want our function to be used on the web, so someone could place a coffee order on a website for example! The key piece there is the `DOM`. The `DOM` will allow us to take our _logic_ we've written here, and then take inputs and give outputs on a webpage. And we'll learn that next week!
+
+You're doing an awesome job, this is a lot of dense stuff to absorb, be proud of how far you've come!
+
+# Homework
+
+![Grogu (Baby Yoda) being placed into a school desk alongside a classroom full of school children](https://pyxis.nymag.com/v1/imgs/0b3/0c6/881e19ce704075cc412699c6b287e0ae4c-baby-yoda-goes-to-school.2x.w710.gif)
+
+[Copy this JavaScript file](https://github.com/developer-delta/code-examples/blob/main/conditionals.js) into a [Chrome snippet](https://developers.google.com/web/tools/chrome-devtools/javascript/snippets), and follow each step carefully. You'll be building on what we have already learned, and solidifying some of your new knowledge of conditionals!
