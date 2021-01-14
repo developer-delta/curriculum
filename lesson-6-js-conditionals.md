@@ -226,6 +226,9 @@ console.log(megaCoffeeMachine(fancyBeans));
 console.log(megaCoffeeMachine(fancyBeans, "VEGAN"));
 ```
 
-Now we have multiple options for our users for cream as well. But we probably want our function to see the light of day! To get it out on the page where it can be seen, and used, and loved!
+Now we have multiple options for our users for cream as well.
 
-Next week we'll dive into the DOM that will allow us to do that!
+
+But we probably want our function to be used on the web, so someone could place a coffee order on a website for example! The key piece there is the DOM. The DOM will allow us to take our _logic_ we've written here, and then take inputs and give outputs on a webpage. And we'll learn that next week!
+
+You're doing an awesome job, this is a lot of heavy stuff to take in, so give yourself a pat on the back for coming this far!
