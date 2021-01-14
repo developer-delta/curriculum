@@ -240,6 +240,6 @@ You're doing an awesome job, this is a lot of dense stuff to absorb, be proud of
 
 # Homework
 
-![Grogu (Baby Yoda) being placed into a school desk alongside a classroom full of school children](https://pyxis.nymag.com/v1/imgs/0b3/0c6/881e19ce704075cc412699c6b287e0ae4c-baby-yoda-goes-to-school.2x.w710.gif)
+![Grogu (Baby Yoda) being placed into a school desk alongside a classroom full of school children](https://64.media.tumblr.com/caa2bfd13cc1907370e3195cccc5cd6b/690b941ee8341d9b-e2/s500x750/1461703cad7b49a220128b5650b5d74333d8b99f.gif)
 
 [Copy this JavaScript file](https://github.com/developer-delta/code-examples/blob/main/conditionals.js) into a [Chrome snippet](https://developers.google.com/web/tools/chrome-devtools/javascript/snippets), and follow each step carefully. You'll be building on what we have already learned, and solidifying some of your new knowledge of conditionals!
