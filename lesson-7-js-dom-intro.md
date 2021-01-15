@@ -176,7 +176,7 @@ Now we have some real functionality in our Buffet app! And I'm hungry.
 
 Your homework for this lesson is to make the **Tasty Buffet** way better! 
 
-> _When you're done with your homework, safe your work in CodePen, and send the link in Slack!_
+> _When you're done with your homework, save your work in CodePen, and send the link in Slack!_
 
 ### Buffet Remodel
 
@@ -191,6 +191,7 @@ Your homework for this lesson is to make the **Tasty Buffet** way better!
 
 ### Michelin Stars (Stretch goals)
 
+* Think about making your buffet accessible. Add `aria` attributes to your code. (look into `aria-live` regions in particular)
 * When a user clicks "Add to Plate", clear the text input.
 * If a user types in "Pizza", add 🍕 to the plate instead of the text itself.
 * Animate the food appearing on the plate with transitions or keyframes
