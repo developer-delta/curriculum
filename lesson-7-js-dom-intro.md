@@ -42,6 +42,7 @@ For example if you wanted to use JavaScript to change a button from green to red
 
 > _If you would like to follow along, [open up the Codepen template](https://codepen.io/mikelbrierly/pen/gOwQQox?editors=1011) for this lesson_
 > * _Click on "console" at the bottom left of the Codepen screen_
+>
 > ![Screen Shot of the codepen console](https://i.imgur.com/66LqyvS.png)
 > * _Click "Change View" > "Editor Layout" > ![icon of left aligned editor windows in CodePen](https://i.imgur.com/f2L6mOd.png)_
 > * _Codepen is a web playground where you can try out ideas and run small pieces of CSS, HTML, and JS!_
@@ -112,7 +113,7 @@ Now when any key is pressed, we call `addFood`, and whatever value was typed in 
 
 Now we're allowing our _user_ to actually leverage our JavaScript in a powerful way!
 
-We can use the `DOM` not just to _get_ information, but also to send it _back_ to our `HTML`. Remember the "plate" div `<p></p>` tag we added to our `HTML`? Let's put some stuff in it!
+We can use the `DOM` not just to _get_ information, but also to send it _back_ to our `HTML`. Remember the "plate" `<div>` element we added to our `HTML`? Let's put some stuff in it!
 
 ```javascript
 const userInput = document.querySelector('.buffet');
