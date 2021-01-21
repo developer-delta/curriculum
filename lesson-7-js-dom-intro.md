@@ -1,19 +1,3 @@
-<!-- > * Lecture -  about and recap (10 mins)
-> * Lecture and working session -  (50 mins)
-* I think we should do the ring light Zoom thing first. Def have opportunities to manipulate the DOM AND build something fuckin cool together.
-  * Should I just design it and then put together stories??
-  * Like not even start it until we're all working together??
-  * Use Codepen together to prototype stuff?
-
-* We should do our lesson on the DOM, THEN -
-* Go through the flow of a git push, pull, PR together for a refresher,
-  * build the light ring thing 
-* Maybe we all pair program on the BASE HTMl document during a class together.
-* focus on the DOM.
-* Whip out A11y shit as we go
-* Maybe do a "save preset"? That saves to localStorage?
- -->
-
 # The Document Object Model
 
 ![restaurant buffet late at night](https://images.unsplash.com/photo-1573550854847-3d78b3c72c2f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
@@ -189,6 +173,7 @@ Your homework for this lesson is to make the **Tasty Buffet** way better!
   * If the user added less than 3 items to their plates, `<p class="stomach"></p>` should have content added that says something about still being hungry.
   * If the user added 4 or 5 items, then the "stomach" paragraph tag should display something about being satisfied
   * If the user added more than 5 items, then the p tag should read something about being full.
+* _HINT: You'll probably need to do a little research on the `.length` property to complete the "Chow Down" feature._
 
 ### Michelin Stars (Stretch goals)
 
