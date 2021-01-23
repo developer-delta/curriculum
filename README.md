@@ -5,3 +5,4 @@
 # [Lesson 5 - Intro to JavaScript](lesson-5-js-intro.md)
 # [Lesson 6 - JS Conditionals](lesson-6-js-conditionals.md)
 # [Lesson 7 - Intro to the DOM](lesson-7-js-dom-intro.md)
+# [Lesson 8 - Open source software](lesson-8-open-source.md)
