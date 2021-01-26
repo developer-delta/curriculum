@@ -421,7 +421,7 @@ Then you got it!
 
 ### Concatenation
 
-![jellicle cats](https://media4.giphy.com/media/h2CbcQnvZhCi9A1Nyh/200.gif)
+![three balls of yarn on a table](https://images.unsplash.com/photo-1530396220186-53cd210802ef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 
 There's one last thing about `strings` we should cover in this intro lesson. One of the most useful ways to manipulate `strings` is by using `concatenation`. 
 
@@ -442,6 +442,8 @@ prints
 `"Add me to this and add me to that."`
 
 Try and use `alert()` and a `variable` in your javascript to create something unique that will pop up on your page!
+
+> _ES6 Note: In the newest version of JS, there is something called a `template literal` that can be used for concatenation. We'll use them more in the future, but you can [check them out now](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) if you like as well!_
 
 ---
 
