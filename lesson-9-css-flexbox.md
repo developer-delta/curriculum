@@ -12,7 +12,7 @@
 * Fork and clone repo
   * https://github.com/developer-delta/flexbox-intro
 
-* Show display propeprties
+* Show display properties
   * Use dev tools to show "computed"
 
 * Show flexbox for centering

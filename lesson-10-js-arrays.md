@@ -4,11 +4,13 @@
 * MDN really has some good shit for this one.
 * 
 
-# Arrays in JS
+# Arrays
 
-Arrays allow us to store multiple values together in a list. 
+![Aerial view of shipping containers](https://images.unsplash.com/photo-1511578194003-00c80e42dc9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80)
 
-So far we have always assigned our variables to a _single_ value. 
+> JavaScript **arrays** allow us to store multiple values together in a list. 
+
+So far we have always assigned variables to a _single_ value. 
 
 ```javascript
 const prefix = "THX";
@@ -17,19 +19,34 @@ const designation = 1138;
 
 Here we have a variable `prefix` assigned a single string value, and we have a variable `designation` assigned a single number value.
 
-Let's look at one more:
+Let's try concatenating those two variables:
 
 ```javascript
-let  = prefix + " " + designation;
+let name = prefix + " " + designation;
 ```
 
-_Even_ the variable `combo` is assigned to a single value. The value it is assigned to is `"THX 1138"`. One value.
+_Even_ the variable `name` is assigned to a single value. The value it is assigned to is `"THX 1138"`. _One value._
 
-**Arrays** allow us to store values as a grouping, but still retaining individual values. Let's look at an example.
+## Creating arrays
+
+![concept art of the collectors room from guardians of the galaxy](https://external-preview.redd.it/-k4uZeUzc67hEfSk_YJSYV1-wLDxEaWy6Bs1GAqHwcA.jpg?auto=webp&s=26f087be1afa08ae75cec054406e72602d46c688)
+
+**Arrays** allow us to store values as a group, but still retain individual values. Let's look at an example:
 
 ```javascript
+const guardians = ['Groot', 'Star-Lord', 'Gamora', 'Rocket', 'Drax'];
 ```
 
+`guardians` our variable that has been assigned to an array. If we `console.log` that variable:
+
+```javascript
+console.log(guardians);
+```
+It will print out the array `['Groot', 'Star-Lord', 'Gamora', 'Rocket', 'Drax']`.
+
+Now we have contained multiple values as a group in one variable.
+
+## Accessing array values
 
 
 
