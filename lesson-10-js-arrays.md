@@ -1,16 +1,12 @@
-* I really like the silly story generator from MDN
-* math.random is pretty critical to make a function that does anything to randomly get a value from the array
-* Magic 8 ball app maybe?
-* MDN really has some good shit for this one.
-* 
-
 # Arrays
 
 ![Aerial view of shipping containers](https://images.unsplash.com/photo-1511578194003-00c80e42dc9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80)
 
-> JavaScript **arrays** allow us to store multiple values together in a list. 
+> JavaScript **arrays** allow us to store multiple values together in a list.
 
-So far we have always assigned variables to a _single_ value. 
+If you'd like to follow along, you can create a new JS/HTML document and open it in your browser, use the Chrome snippets feature, or use Codepen! (make sure to open up the console to see your output!)
+
+So far we have only assigned variables to a _single_ value.
 
 ```javascript
 const prefix = "THX";
@@ -29,6 +25,14 @@ _Even_ the variable `name` is assigned to a single value. The value it is assign
 
 ## Creating arrays
 
+* Array in it's simplest form, empty
+
+```javascript
+[];
+```
+
+* Maybe change this analogy to a vending machine?? Since the HW can be nerdy?
+
 ![concept art of the collectors room from guardians of the galaxy](https://external-preview.redd.it/-k4uZeUzc67hEfSk_YJSYV1-wLDxEaWy6Bs1GAqHwcA.jpg?auto=webp&s=26f087be1afa08ae75cec054406e72602d46c688)
 
 **Arrays** allow us to store values as a group, but still retain individual values. Let's look at an example:
@@ -42,14 +46,52 @@ const guardians = ['Groot', 'Star-Lord', 'Gamora', 'Rocket', 'Drax'];
 ```javascript
 console.log(guardians);
 ```
+
 It will print out the array `['Groot', 'Star-Lord', 'Gamora', 'Rocket', 'Drax']`.
 
-Now we have contained multiple values as a group in one variable.
+Now we have contained multiple values as a group in one variable. An array!
 
-## Accessing array values
+## Accessing specific array items
+
+* Vending machine number 0 gif getting stuff for you
+* 0 based index
+* Using .length to get the last item
+
+## Setting array values
+
+* What do we mean when we say method?
+* push
+* unshift
+
+## Get array values
+
+* why this instead of get specific?
+* pop
+* shift
+
+## IndexOf find in array
+
+* Build vending machine orders per person
+
+## Combining an array
+
+* print out a sentence and concatenate with array.join(' ')
+
+## Storing different value types
+
+* Array can contain strings, numbers, booleans, and even functions!
+
+## Homework
+
+![]()
+
+* Fork and clone [the array homework repository](), and follow the steps laid out in the `README`.
 
 
 
+
+* math.random is pretty critical to make a function that does anything to randomly get a value from the array
+* Do the uninspiring wrongly attributed poster for this. Maybe like vandalizing a poster?
 
 
 <!DOCTYPE html>
