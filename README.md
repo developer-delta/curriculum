@@ -18,4 +18,4 @@
 
 ## Lesson 9 - [CSS Flexbox](lesson-9-css-flexbox.md)
 
-## Lesson 10 - [JS Arrays](lesson-10-arrays.md)
+## Lesson 10 - [JS Arrays](lesson-10-js-arrays.md)
