@@ -56,7 +56,7 @@ Now we have contained multiple values as a group in one variable. An array!
 
 ## Accessing array items
 
-![A monkey trying to grab chips out of a vending machine](https://media1.tenor.com/images/1814b8a61f663cbe3c45c9b5ef577baa/tenor.gif?itemid=3538273)
+![A monkey trying to grab chips out of a vending machine](https://i.imgur.com/x2DzEJv.gif)
 
 Before we get items out of our array, it's important to know how JavaScript understands the _location_ of each item.
 
@@ -111,7 +111,7 @@ console.log(candyBars[last -1]); // logs 'NutRoll'
 
 > _It's also important to note that we were able to place an **expression** between the brackets. The **result** of the expression is used for the index. In this case `4`._
 
-![Screen Shot 2021-02-12 at 12.57.07 PM](https://i.imgur.com/3qfSKpZ.png)
+![A bunch of snickers](https://i.imgur.com/3qfSKpZ.png)
 
 ## Setting values
 
