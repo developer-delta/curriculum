@@ -19,3 +19,5 @@
 ## Lesson 9 - [CSS Flexbox](lesson-9-css-flexbox.md)
 
 ## Lesson 10 - [JS Arrays](lesson-10-js-arrays.md)
+
+## Lesson 11 - [JS Looping and Iteration](lesson-11-js-loops.md)
