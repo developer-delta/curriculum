@@ -21,3 +21,5 @@
 ## Lesson 10 - [JS Arrays](lesson-10-js-arrays.md)
 
 ## Lesson 11 - [JS Looping and Iteration](lesson-11-js-loops.md)
+
+## Lesson 12 - [JS Objects](lesson-12-js-objects.md)
