@@ -149,8 +149,6 @@ let benny = {
 }
 ```
 
-* what is this, how to use. Do a function that alerts or something
-
 ## Nesting Objects
 
 * sometimes called `sub-namespaces`
