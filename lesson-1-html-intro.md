@@ -20,41 +20,44 @@ HTML is one of the three pillars of the web, along with CSS and JavaScript. it's
 
 1. On the desktop of your computer, create a new file named `hello-world`.
 
-img 1
+![Screenshot 2021-10-04 074243](https://user-images.githubusercontent.com/13723156/140521527-c5a952b9-02ee-4e56-983e-c21bca9eeb91.png)
 
 2. Double click on your newly created file, and it should open in a default text editor -
 
-img 2
+![Screenshot 2021-11-05 075609](https://user-images.githubusercontent.com/13723156/140521593-0c6fade9-416b-49fd-ae93-0ab40320f0e4.png)
 
 3. Go ahead and add some text to the file, then open it with Chrome (right click -> open with -> Chrome)
     * _If you don't see Chrome as an option, you may need to click "Choose another app" and search your computer for Chrome_
-  
-img 3
 
-4. You should now be able to see your raw, unformatted text in Google chrome. The address it's pointing to is just right here on your computer! Next up let's add another line to our text document
+![Screenshot 2021-11-05 075956](https://user-images.githubusercontent.com/13723156/140521641-d279d201-cc16-402b-b145-d9cfcb7677c2.png)
+
+4. You should now be able to see your raw, unformatted text in Google chrome. The address it's pointing to is just right here on your computer! 
+
+![Screenshot 2021-11-05 080219](https://user-images.githubusercontent.com/13723156/140521797-cd7b40b3-a3a2-4699-bdfe-8e7d22beb75e.png)
+
+5. Next up let's add another line to our text document
 
 ```
 <h1>General Kenobi.</h1>
 ```
 
-img 4
+![Screenshot 2021-11-05 080547](https://user-images.githubusercontent.com/13723156/140522051-cd2129c3-c9a0-4dde-9eb5-88935bbdf282.png)
 
-5. Our page is displaying _exactly_ what we typed in, but what we just created was an `html` tag that creates a **heading**, and we want our browser to be able to interpret that [syntax](https://developer.mozilla.org/en-US/docs/Glossary/Syntax). Go ahead and edit the name of your file so that it has the extension `.html`.
+6. Our page is displaying _exactly_ what we typed in, but what we just created was an `html` tag that creates a **heading**, and we want our browser to be able to interpret that [syntax](https://developer.mozilla.org/en-US/docs/Glossary/Syntax). Go ahead and edit the name of your file so that it has the extension `.html`.
 
+![Screenshot 2021-11-05 081111](https://user-images.githubusercontent.com/13723156/140522153-c95ad489-b897-4dcb-b3b8-ef796b039229.png)
 
-img 5
+7. Save and open your file again in Chrome, and now you should see the text has been formatted, and your `html` is being interpreted by the browser!
 
-6. Save and open your file again in Chrome, and now you should see the text has been formatted, and your `html` is being interpreted by the browser!
+![Screenshot 2021-11-05 082412](https://user-images.githubusercontent.com/13723156/140522207-bed79e2c-12c7-45c8-b51e-c70d22e14dd9.png)
 
-img 6
+Note: if you see your file open as `hello-world.html.txt`, then you'll need to open your file extension settings and uncheck "Hide extensions for known file types"
 
-Note: if you see your file open as `hello-world.html.txt`, then you'll need to make a change to your file extension settings -
+![Screenshot 2021-11-05 081558](https://user-images.githubusercontent.com/13723156/140522232-d43dc546-2946-4991-9505-f7f1684b277d.png)
 
-img 7
+8. If you want to see the `html` elements under the hood, you can right click on your webpage, and choose `Inspect`. This will open the **developer tools**. (We'll be using this tool a lot in the future!)
 
-7. If you want to see the `html` elements under the hood, you can right click on your webpage, and choose `Inspect`. This will open the **developer tools**. (We'll be using this tool a lot in the future!)
-
-img 8
+![Screenshot 2021-11-05 083109](https://user-images.githubusercontent.com/13723156/140522258-955f59a5-1977-4f70-a7db-e389983cbad0.png)
 
 🎉🎉🎉
 
