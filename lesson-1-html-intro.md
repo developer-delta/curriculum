@@ -1,27 +1,62 @@
-# Intro to HTML
+# Introduction to HTML
 
 ![An aerial view of a river delta](https://images.unsplash.com/photo-1524009901480-a6fa1c0c8ab5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 
 ## HTML is the foundation of the web
 
-HTML is the language used to give structure to content on the web. It stands for "Hyper Text Markup Language". _"Hyper Text"_ is just a sci-fi way of saying "text that does special stuff". _"Markup"_ means that text or content may be bold, italicized, a list of bullet points, a table with content, etc.
+HTML is the language used to give **structure** to content on the web. It stands for "Hyper Text Markup Language". _"Hyper Text"_ is "text that does special stuff". _"Markup"_ means that text or content may be bold, italicized, a list of bullet points, a table with content, etc.
 
 ![Concrete pillars under a large structure](https://images.unsplash.com/photo-1519176510496-cd5b5b74c808?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80)
 
 HTML is one of the three pillars of the web, along with CSS and JavaScript. it's the first type of file your browser encounters when it load up a web page, and it is responsible for connecting your CSS styles and JS functionality to the content contained in your website or app.
 
-> ![Screenshot of a garish old myspace page with nightmare before christmas stuff all over it. (a heavily customized personal site)](https://news.codecademy.com/content/images/2020/02/nightmare-before-christmas-myspace-layout.jpg)
-If this looks familiar, you have already written good old HTML.
-
 ---
 
-## A quick look at the web
+ ## Follow along!
 
-![The cover of a software box from the 1990's titled "Internet", and has a young kid surfing a keyboard far above the earth. It's outrageous.](https://i1.wp.com/youarenotsosmart.com/wp-content/uploads/2015/11/1509851_10151965594172739_1451801489_n.jpg?fit=770%2C730&ssl=1)
+![Darth Vader saying "Come with me"](https://64.media.tumblr.com/24fb00c6096c8af411858e1e8166d318/tumblr_olwzijmlRo1w60m4do1_1280.gif)
 
-Do this live -
+#### To start out, let's take a quick look at how your computer and browser interpret files. 
 
-_start our example with a single html file on the desktop of your computer. Then open that text file with a browser, and show how the text is displayed on the page. Then add in some HTML tags, you see that the tags that were used are interpreted by the browser and displayed with formatting, or markup. Next talk about if we wanted to add color or design, and connect a stylesheet (all using the finder gui). Lastly talk about interaction with JS and link that. Then we have a very simple local site, but how can other people access it? LAN cable to someone elses computer?  By deploying our site, we are essentially putting those files onto another computer/server that can then be accessed anywhere online via the internet. We will be learning how to put those pieces together, with a focus on the HTML, CSS, and JS._
+1. On the desktop of your computer, create a new file named `hello-world`.
+
+img 1
+
+2. Double click on your newly created file, and it should open in a default text editor -
+
+img 2
+
+3. Go ahead and add some text to the file, then open it with Chrome (right click -> open with -> Chrome)
+    * _If you don't see Chrome as an option, you may need to click "Choose another app" and search your computer for Chrome_
+  
+img 3
+
+4. You should now be able to see your raw, unformatted text in Google chrome. The address it's pointing to is just right here on your computer! Next up let's add another line to our text document
+
+```
+<h1>General Kenobi.</h1>
+```
+
+img 4
+
+5. Our page is displaying _exactly_ what we typed in, but what we just created was an `html` tag that creates a **heading**, and we want our browser to be able to interpret that [syntax](https://developer.mozilla.org/en-US/docs/Glossary/Syntax). Go ahead and edit the name of your file so that it has the extension `.html`.
+
+
+img 5
+
+6. Save and open your file again in Chrome, and now you should see the text has been formatted, and your `html` is being interpreted by the browser!
+
+img 6
+
+Note: if you see your file open as `hello-world.html.txt`, then you'll need to make a change to your file extension settings -
+
+img 7
+
+7. If you want to see the `html` elements under the hood, you can right click on your webpage, and choose `Inspect`. This will open the **developer tools**. (We'll be using this tool a lot in the future!)
+
+img 8
+
+🎉🎉🎉
 
 ---
 
@@ -30,58 +65,66 @@ _start our example with a single html file on the desktop of your computer. Then
 ### Content
 
 Take a look at this line of content:
-> ```html
-> Big Gulps huh? Alright! Welp, see ya later!
-> ```
+
+ ```html
+Big Gulps huh? Alright! Welp, see ya later!
+ ```
 
 If we want to be able to alter that content at all, it will have to be enclosed in an html tag. Here's what that would look like wrapped in a `paragraph` tag.
-> ```html
-> <p>Big Gulps huh? Alright! Welp, see ya later!</p>
-> ```
+
+ ```html
+ <p>Big Gulps huh? Alright! Welp, see ya later!</p>
+ ```
 
 When the browser inteprets this HTML to be displayed, it will only output the content, like so:
 
-> <p>Big Gulps huh? Alright! Welp, see ya later!</p>
+ <p>Big Gulps huh? Alright! Welp, see ya later!</p>
 
 _Your HTML tags will never get rendered (displayed) on the screen, they are basically instructions to the browser to help alter your content._
 
 ### Tags
 
 In our previous example, we used the `paragraph` tag, which is one of the most common HTML tags, due to there being a lot of text on the web! Let's take our example and make some more changes. What if we wanted to emphasize some of our text with bold or italics? Let's see how that would look:
-> ```html
-> <p><strong>Big Gulps</strong> huh? Alright! Welp, see ya later.</p>
-> ```
+
+ ```html
+ <p><strong>Big Gulps</strong> huh? Alright! Welp, see ya later.</p>
+ ```
+
 Renders to:
-> <p><strong>Big Gulps</strong> huh? Alright! Welp, see ya later.</p>
+
+ <p><strong>Big Gulps</strong> huh? Alright! Welp, see ya later.</p>
 
 ### Nesting
 
 You'll notice that the `<strong>` tag we used is _inside_ of our `<p>` tag. This is called a nested HTML element, and it is a cornerstone of building and arranging content. Be careful of the order of your nested tags, you can end up with malformed HTML if things aren't nested correctly. When you have a lot of tags that are nesting, usually you will see HTML written like this:
-> ```html
-> <div>
+
+ ```html
+ <div>
 >   <p>Big</p>
 >   <p>Gulps</p>
 >   <p>Huh?</p>
-> </div>
-> ```
+ </div>
+ ```
 
 That will render the same as this does,
-> ```html
-> <div><p>Big</p><p>Gulps</p><p>Huh?</p></div>
-> ```
+
+ ```html
+ <div><p>Big</p><p>Gulps</p><p>Huh?</p></div>
+ ```
 
 ...but it's much harder to read for a developer working on the site if it's all scrunched together like that ^.
 
 ### Attributes
 
-On a lot of web pages, you could have hundreds or even thousands of html tags in your document. And a lot of those are probably plain old `paragraph` tags `<p></p>`. If we wanted to make one of those `<p>` tags unique by giving it a name that our JavaScript or CSS could access later, we could do that with an `attribute`. In this case the `id` attribute:
-> ```html
-> <p id="quotable-line"><strong>Big Gulps</strong> huh? Alright! Welp, see ya later.</p>
-> ```
+On a lot of web pages, you could have hundreds or even thousands of html tags. And a lot of those are probably plain old `paragraph` tags `<p></p>`. If we wanted to make one of those `<p>` tags unique by giving it a name that our JavaScript or CSS could access later, we could do that with an `attribute`. In this case the `id` attribute:
+
+ ```html
+ <p id="quotable-line"><strong>Big Gulps</strong> huh? Alright! Welp, see ya later.</p>
+ ```
 
 The syntax for HTML attributes is always the name of the attribute followed by an equal sign, and then opening and closing quotation marks that can contain different things.
 
-_Attributes help to communicate special information to the browser about your document without displaying what you typed onto the page._
+> _Attributes help to communicate special information to the browser about your document without displaying what you typed onto the page._
 
 ---
 
@@ -142,7 +185,9 @@ The lists items will be the `li` tag.
   <li>Ron</li>
 </ul>
 ```
+
 ---
+
 ```html
 <!DOCTYPE html>
 <html lang="en-US">
@@ -168,6 +213,7 @@ The lists items will be the `li` tag.
 ```
 
 Now our webpage will look like this:
+
 ![Screenshot of our simple website showing Harry, hermione, and ron in bullet points, followed by a purple hyperlink that says "Take me to Hogwarts!!"](https://i.imgur.com/CP1zvZW.png)
 
 ---
@@ -178,9 +224,9 @@ Now our webpage will look like this:
 The web wouldn't be the web if it weren't for memes, gifs, images, videos and the like. Adding _media_ to our pages is almost always something we'll want to do.
 
 Here's what the `html` looks like for the lovely photograph(s) of Nickelback frontman Chad Kroeger above:
-> ```html
-> <img src="../images/nickelback.jpg" width="550px">
-> ```
+ ```html
+ <img src="../images/nickelback.jpg" width="550px">
+ ```
 
 There are a couple special things you might have noticed about this tag in particular: 
 * There is no closing tag, only an opening one. 
@@ -188,21 +234,17 @@ There are a couple special things you might have noticed about this tag in parti
 * There are 2 `attributes`. 
   * Only the `src` attr is required, and there can also be more than just these two added to the tag. If you are ever curious about the details of an HTML tag, it's a good plan to make a habit of [checking Mozilla Developer Network for their documentation on it](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
 
----
-
 > _Over time, you'll end up memorizing the syntax of __some__ things, but development is about fostering a new way of thinking, not memorizing things. You will develop the skills to research, read documentation, and find pertinent answers for specific issues. Right now you are learning a broad overview of the web, so don't let yourself get lost in the weeds just yet. Your __mental model__ will build over time, just be patient!_ 🤘
-
----
 
 ## The web is for everyone
 
-We want our website and it's content (like images) to be easily accessible, and easy to understand. This idea is aptly called **web accessibility**. There are many facets to web accessibility, and many different ways to leverage it, but for now we are going to focus on screen reader compatibility. **Screen readers** are tools used by people with vision impairments to navigate their computers with a keyboard.
+We want our website and it's content (like images) to be easily accessible, and easy to understand. This idea is aptly called **web accessibility**. There are many facets to web accessibility, and many different ways to leverage it, but for now we are going to focus on screen reader compatibility. A **screen reader** is a tool created to help people with low/no vision navigate their computers and browsers with a keyboard.
 
 > the term **A11y** is often used as shorthand for "web accessibility". 
 
 _This is a topic we'll continue to explore throughout the course, and it is a mindset we want to cultivate from the very beginning._
 
-Ok back to our `<img>` tag. 
+Ok, back to our `<img>` tag. 
 
 If you were using a screen reader to view this:
 ```html
@@ -212,7 +254,7 @@ You would hear something like this read to you:
 > ![Screenshot of Mac's VoiceOver reading an unlabeled image.](https://i.imgur.com/dRngfiw.png)
 > The key piece there is `Unlabeled image`. 
 
-What a bummer. If you are blind, you are missing a huge piece of what this site has to offer, and it may even make your site unusable. To solve this, we can use the `alt` attribute.
+What a bummer. If your user is unable to make out the visible image, they are missing a huge piece of what this site has to offer, and it may even make your site unusable. To solve this, we can use the `alt` attribute.
 
 ### Alt text
 
@@ -254,9 +296,17 @@ _Alt text is not an enhancement to the web, it is the standard. By not using it,
   * Add your image URL to the `src` attribute, and then add an appropriate `alt` attribute with a good image description.
 * Now if you don't see your small image showing up inside of the frame, there may be a small typo in one of the `attributes` in our html 😈. Read through it carefully and see if you can remedy it.
 * Click "open in a new window" toward the top right of the page, and see your fresh html in all it's glory! You can also see the content of your `title` element displayed in the browser tab too!
-* Once your site looks how you want it, we need to check it with a Screen Reader! Mac has a built in screen reader called Voice Over that is more than enough for our needs right now. 
-  * Press `command`+`F5` to open voice over. `control`+`option`+arrow keys will allow you to navigate the page and the content will be read aloud. `control`+`option`+`space` will "click" on that item. `control`+`option`+`shift`+up or down arrow will go into or out of content.
-* Use the screen reader to navigate to your images, and make sure your `alt` text is being read and makes sense to a non-sighted user!
+* Once your site looks how you want it, we need to check it with a Screen Reader! Use it to navigate your images, make sure your `alt` text is being read, and your site makes sense!
+  * **Mac**
+    * Mac has a built in screen reader called Voice Over we can use
+    * Press `command`+`F5` to open voice over.
+    * The `tab` key can be used to navigate important elements on the page. (this should be sufficient for your first introduction to this kind of navigating)
+      * `control`+`option`+ arrow keys allows for more granular navigation.
+      * `control`+`option`+`space` will "click" on that item.
+      * `control`+`option`+`shift`+ up or down arrow will go into or out of content.
+  * **Windows**
+    * One of the most common (and free!) screen readers for Windows is called [NVDA](https://www.nvaccess.org/download/)
+    * The `tab` key can be used to navigate important elements on the page. (this should be sufficient for your first introduction to this kind of navigating)
 
 > If you need to check your syntax, or want to add any other html tags, don't forget to bookmark the MDN page. This will come in super handy, and it's great reference material. https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
