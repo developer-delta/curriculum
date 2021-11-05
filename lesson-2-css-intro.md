@@ -19,24 +19,25 @@ _We'll look at an example in a second that hopefully makes this more clear. But 
 
 Let's take a quick look at _how_ we can leverage CSS to modify our HTML. We'll need a way for our HTML to communicate with the styles we'll be writing. There are three ways we can do this: [inline style attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style), [style element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style), or using an _external stylesheet_. We'll be focusing on external stylesheets as they are generally considered best practice. They also follow the [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns).
 
-* Let's create a basic html file and name it `index.html`.
-  * We'll add a `<div>` element with a nested `<p>` element to the `<body>`so we have something to style.
-    ```html
-    <!DOCTYPE html>
-    <html lang="en-US">
+> ### Open up [this stackblitz](https://stackblitz.com/edit/simplest-html-possible) and click `fork` to follow along with the lesson!
 
-      <head>
-        <meta charset="utf-8">
-      </head>
+* Let's add a `<div>` element with a nested `<p>` element to the `<body>`so we have something to style.
+   ```html
+   <!DOCTYPE html>
+   <html lang="en-US">
 
-      <body>
-        <div>
-          <p>I'm a paragraph in a div!</p>
-        </div>
-      </body>
+     <head>
+       <meta charset="utf-8">
+     </head>
 
-    </html>
-    ```
+     <body>
+       <div>
+         <p>I'm a paragraph in a div!</p>
+       </div>
+     </body>
+
+   </html>
+   ```
 
 * To connect an external stylesheet to our HTML, we'll use the `<link>` element.
 
