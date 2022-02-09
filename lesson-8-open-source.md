@@ -22,7 +22,7 @@ These aren't obscure second-tier applications, they're some of the very best you
 
 ![Patrick star from Spongebob giving away money](https://media4.giphy.com/media/fNvXkjC50ywBW/giphy.gif)
 
-OSS isn't just altruistic, it's also practical. By making your software available to all those who use it and want to improve it, you empower your users and build a sense of ownership. Diversity is a natural by product of OSS since the developer community is global. As Wikipedia says _"The mix of divergent perspectives, corporate objectives, and personal goals speeds up innovation."_ Wikipedia is also a great example of an open source model.
+OSS isn't just altruistic, it's also practical. By making your software available to all those who use it and want to improve it, you empower your users and build a sense of ownership. Diversity is a natural by product of OSS since the developer community is global. As Wikipedia says _"The mix of divergent perspectives, corporate objectives, and personal goals speeds up innovation."_ Wikipedia itself is a great example of an open source model.
 
 ---
 
